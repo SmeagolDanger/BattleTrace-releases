@@ -7,9 +7,13 @@ A fun, local combat-log analyzer for SWG Legends bounty hunters. Trace damage, d
 Get the latest desktop build from [Releases](https://github.com/SmeagolDanger/BattleTrace-releases/releases/latest):
 
 - **Windows x64:** download the `-x64-setup.exe` installer. It adds Start-menu and desktop shortcuts, and later updates download inside the app; choose **Restart and install** when you are ready.
-- **macOS Apple Silicon:** download the `-arm64.zip`, extract it, and move BattleTrace to Applications. macOS updates are manual: the app tells you when a newer version exists and opens this page.
+- **macOS Apple Silicon:** download the `-arm64.dmg`, open it, and drag BattleTrace into Applications; the window shows the first-launch note. macOS updates are manual: the app tells you when a newer version exists and opens this page. (The `-arm64.zip` is the same app, published for the update checker.)
 
 Builds are unsigned. Windows may show a SmartScreen prompt on first launch. macOS blocks the first launch: open **System Settings → Privacy & Security** and click **Open Anyway**, or run `xattr -dr com.apple.quarantine /Applications/BattleTrace.app` once.
+
+## Moving your library to another computer
+
+**Library, backup & transfer** on the main screen exports everything you have filed as one file and imports it on another machine, Windows or Mac. Import shows what the file holds before anything changes and keeps a dated backup of the library it replaces.
 
 ## Moving from the Windows portable edition
 
