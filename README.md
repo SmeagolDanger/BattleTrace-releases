@@ -1,5 +1,3 @@
-[![Downloads](https://img.shields.io/github/downloads/SmeagolDanger/BattleTrace-releases/total.svg?style=for-the-badge)](https://github.com/SmeagolDanger/BattleTrace-releases/releases)
-
 # BattleTrace
 
 A fun, local combat-log analyzer for SWG Legends bounty hunters. Trace damage, defensive abilities, timing evidence, and export encounters as PDF reports.
