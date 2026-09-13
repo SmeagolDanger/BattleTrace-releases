@@ -17,7 +17,14 @@ Builds are unsigned. Windows may show a SmartScreen prompt on first launch. macO
 
 ## Moving from the Windows portable edition
 
-Releases up to 0.9.4 also shipped a portable `.exe`. From 0.9.5 the installer is the only Windows download. To keep your saved library, follow the steps in the [0.9.5 release notes](https://github.com/SmeagolDanger/BattleTrace-releases/releases/tag/v0.9.5) before installing.
+Releases before 0.9.5 shipped a portable `.exe`; the installer is now the only Windows download. To keep a portable library:
+
+1. Close BattleTrace and keep the old executable and its data folder as a backup.
+2. Install the `-x64-setup.exe`. Leave **Run BattleTrace** unchecked on the final screen.
+3. Copy the entire `BattleTrace Data` folder beside your old executable (or `No Disintegrations Data`) to `%APPDATA%\BattleTrace`, naming the copied folder `BattleTrace`. The database should sit directly inside it. If that destination already exists, rename it to a backup first; do not merge profiles.
+4. Open BattleTrace from the Start menu and confirm your saved cases and remembered BH. Keep the backup until verified.
+
+Alternatively, run the old portable build once more, use **Library, backup & transfer → Export library**, install the new version, and import that file.
 
 ## Your data
 
